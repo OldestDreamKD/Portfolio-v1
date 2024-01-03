@@ -1,0 +1,127 @@
+/* Reset default margin and padding */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url(./assets/background.jpg);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Circular profile picture */
+.profile-pic {
+  border-radius: 50%;
+}
+
+/* Heading styles */
+h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+}
+
+/* Lead paragraph styles */
+.lead {
+  color: white;
+  font-size: 2rem;
+}
+
+/* Inline text with underline */
+.itl {
+  display: inline-block;
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  border-bottom: 0.5rem orange solid;
+  width: fit-content;
+}
+
+/* Common font size for education-skills and row */
+.education-skills,
+.row {
+  font-size: 1.8rem;
+}
+
+/* Carousel caption styles */
+.carousel-caption {
+  background-color: gainsboro;
+  color: black;
+}
+
+/* Text alignment and font size for various elements */
+.card-text,
+ul,
+.single-about-txt,
+.contact {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+/* Button and link styles */
+.btn,
+a {
+  color: white;
+  text-decoration: none;
+  background-color: #ed2b2a;
+  border-radius: 15%;
+}
+
+/* Hover styles for buttons and links */
+.btn:hover,
+a:hover {
+  color: #ff90bc;
+  background-color: #ed2b2a;
+}
+
+/* Background color for projects and contact sections */
+.projects,
+.contact {
+  background-color: rgb(231, 231, 231);
+}
+
+/* Styles for contact links */
+.contact a {
+  background-color: transparent;
+  color: black;
+}
+
+/* Media query for small screens */
+@media (max-width: 425px) {
+  .card-text,
+  ul,
+  .single-about-txt,
+  .contact {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .lead {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .itl {
+    font-size: 2rem;
+    border-bottom: 0.3rem orange solid;
+  }
+
+  .education-skills,
+  .row {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+}
